@@ -4,6 +4,7 @@ on:
   #push:
   workflow_dispatch: # to allow to run manually
 
+jobs:
   foobarScan:
     runs-on: ubuntu-latest
     container:
